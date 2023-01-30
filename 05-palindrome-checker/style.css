@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #005772;
+  height: 100vh;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 3px;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+header h1 span {
+  font-weight: 700;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px 30px 30px 30px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: orangered;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.input-text {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid orangered;
+  color: #555;
+}
+
+.result {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 20px;
+}
